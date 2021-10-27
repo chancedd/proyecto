@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width_device-width,initial-scale-1.0" />
+    <title>Empresa</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="patitas.png" alt="logo" />
+        </div>
+        <a class="btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <h1>Nombre de la empresa </h1>
+        <div class="menu">
+          <a href="index.html">Servicio y Productos </a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="equipo.html"> Equipo </a>
+          <a href="clientes.html">clientes</a>
+          <a href="noticias.html">Noticias/Fotos/Videos</a>
+          <a href="contactos.html">Contacto</a>
+          <a href="home.html">Home</a>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <h2>NUESTRA HISTORIA</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi error
+        natus vero doloremque qui, illo hic minus dolores iure rerum explicabo
+        consequuntur temporibus nisi voluptatum accusantium porro quos expedita
+        alias!
+      </p>
+    </section>
+    <footer>Derechos Reservados</footer>
+    <script type="text/javascript">
+      $(".btn").on("click", function () {
+        $(".menu").toggleClass("show");
+      });
+    </script>
+  </body>
+</html>
